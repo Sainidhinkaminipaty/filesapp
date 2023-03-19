@@ -1,3 +1,0 @@
-Created seperate folders for frontend and backend part.where there is scope for single user login page has been created but not yet routed within front-end.
-but most of the part is done.Coming to the backend all the files are stored in database and the page is displayed for these files and we can download whenever required.
-Rather than login page routing everything is done.
