@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function App() {
   const [fileData, setFileData] = useState();
-  const [token,setToken]=useState("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJpYXQiOjE2NzkyMDMwMDF9.NT_Yl350K45mfvHvbvXSJcCwsn5V16qh9oiIZ8Lrh-Q")
+  const [token,setToken]=useState("")
 
   const fileChangeHandler = (e) => {
     setFileData(e.target.files[0]);
